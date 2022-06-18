@@ -1,0 +1,11 @@
+Package: librtlsdr
+Version: @DEB_LIBRTLSDR_V@
+Architecture: @DEB_ARCH@
+Maintainer: @DEB_MAINTAINER@
+Depends: libusb-1.0-0
+Section: Radio
+Priority: optional
+Homepage: https://osmocom.org/projects/rtl-sdr/wiki
+Description: Driver for the RTL2832U for Software Defined Radio (SDR), plus utilities.
+ .
+ Theoretically supports RTL-SDR devices plugged into a Camera Connection Kit adapter or a USB host adapter.
